@@ -884,6 +884,63 @@ export default function Index() {
           </div>
         </div>
       )}
+
+      {/* Lightbox Modal */}
+      {selectedImageIndex !== null && (
+        <div className="fixed inset-0 bg-black bg-opacity-95 z-60 flex items-center justify-center p-4">
+          <div className="relative max-w-6xl w-full h-full flex items-center justify-center">
+            {/* Close Button */}
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={closeLightbox}
+              className="absolute top-4 right-4 text-white hover:text-gray-300 z-70"
+            >
+              <X className="h-8 w-8" />
+            </Button>
+
+            {/* Previous Button */}
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={prevImage}
+              className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300 z-70"
+            >
+              <ArrowRight className="h-8 w-8 rotate-180" />
+            </Button>
+
+            {/* Next Button */}
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={nextImage}
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white hover:text-gray-300 z-70"
+            >
+              <ArrowRight className="h-8 w-8" />
+            </Button>
+
+            {/* Main Image */}
+            <div className="relative max-w-full max-h-full flex items-center justify-center">
+              <img
+                src={galleryImages[selectedImageIndex].src}
+                alt={galleryImages[selectedImageIndex].title}
+                className="max-w-full max-h-[85vh] object-contain rounded-lg shadow-2xl"
+              />
+
+              {/* Image Info */}
+              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4 rounded-b-lg">
+                <h3 className="text-lg font-semibold mb-1">{galleryImages[selectedImageIndex].title}</h3>
+                <Badge variant="secondary" className="bg-red-600 text-white">
+                  {galleryImages[selectedImageIndex].category}
+                </Badge>
+                <p className="text-sm mt-2 opacity-75">
+                  Image {selectedImageIndex + 1} of {galleryImages.length}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
