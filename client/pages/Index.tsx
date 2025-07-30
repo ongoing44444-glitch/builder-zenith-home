@@ -535,15 +535,18 @@ export default function Index() {
 
       {/* Hero Section */}
       <section
-        className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20 lg:py-32 transition-all duration-1000 ease-in-out"
+        className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20 lg:py-32 pb-32 transition-all duration-1000 ease-in-out overflow-hidden"
         style={{
           backgroundImage: `url('${backgroundImages[currentBgIndex]}')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center'
         }}
       >
-        <div className="absolute inset-0 bg-black opacity-70"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Background Overlay */}
+        <div className="absolute inset-0 bg-black opacity-70 z-10"></div>
+
+        {/* Main Content */}
+        <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Excellence in <span className="text-red-500">Engineering</span> & <span className="text-red-500">Fabrication</span>
@@ -551,10 +554,10 @@ export default function Index() {
             <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto">
               Ferrari Arts delivers precision engineering, innovative architecture, and superior metal fabrication services for commercial and industrial projects.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
               <Button
                 size="lg"
-                className="bg-red-600 hover:bg-red-700 text-lg px-8 py-3"
+                className="bg-red-600 hover:bg-red-700 text-lg px-8 py-3 z-30"
                 onClick={() => setIsGalleryOpen(true)}
               >
                 View Our Work
@@ -563,28 +566,28 @@ export default function Index() {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-white border-white hover:bg-white hover:text-slate-900 text-lg px-8 py-3"
+                className="text-white border-white hover:bg-white hover:text-slate-900 text-lg px-8 py-3 z-30"
                 onClick={() => scrollToSection('contact')}
               >
                 Request Consultation
               </Button>
             </div>
           </div>
+        </div>
 
-          {/* Background Slideshow Indicators */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
-            {backgroundImages.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentBgIndex(index)}
-                className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentBgIndex
-                    ? 'bg-red-500 scale-110'
-                    : 'bg-white opacity-50 hover:opacity-75'
-                }`}
-              />
-            ))}
-          </div>
+        {/* Background Slideshow Indicators */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-30">
+          {backgroundImages.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentBgIndex(index)}
+              className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                index === currentBgIndex
+                  ? 'bg-red-500 scale-110 shadow-lg'
+                  : 'bg-white opacity-50 hover:opacity-75'
+              }`}
+            />
+          ))}
         </div>
       </section>
 
