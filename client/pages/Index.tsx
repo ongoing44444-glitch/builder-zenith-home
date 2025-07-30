@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -8,6 +8,7 @@ import { Building2, Wrench, Hammer, Settings, Phone, Mail, MapPin, ArrowRight, C
 
 export default function Index() {
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+  const [currentBgIndex, setCurrentBgIndex] = useState(0);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
