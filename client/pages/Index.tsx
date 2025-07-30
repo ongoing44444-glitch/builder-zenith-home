@@ -498,7 +498,10 @@ export default function Index() {
               </div>
             </div>
             <div className="flex items-center">
-              <Button className="bg-red-600 hover:bg-red-700">
+              <Button
+                className="bg-red-600 hover:bg-red-700"
+                onClick={() => scrollToSection('contact')}
+              >
                 Get Quote
               </Button>
             </div>
