@@ -529,7 +529,12 @@ export default function Index() {
                 View Our Work
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-slate-900 text-lg px-8 py-3">
+              <Button
+                size="lg"
+                variant="outline"
+                className="text-white border-white hover:bg-white hover:text-slate-900 text-lg px-8 py-3"
+                onClick={() => scrollToSection('contact')}
+              >
                 Request Consultation
               </Button>
             </div>
