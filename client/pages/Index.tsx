@@ -160,6 +160,311 @@ export default function Index() {
       src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fbc91e725df5a4a3e8472c1fb5df385ba?format=webp&width=800",
       title: "Residential Patio Cover",
       category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fcaff0b14d7af4911966a5bfc41b38046?format=webp&width=800",
+      title: "Custom Metal Fencing",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F94aaf8b7868f47d9abe8afd80b050fc6?format=webp&width=800",
+      title: "Decorative Metal Screens",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F45dda13074c2448980eefe65447395d8?format=webp&width=800",
+      title: "Modern Balcony Railings",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F6c1efba423bd4d91acd1a6165fc274c5?format=webp&width=800",
+      title: "Glass Panel Installation",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fc3e2ccb1de9e47fb9322715325d23655?format=webp&width=800",
+      title: "Precision Metalwork Table",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F3ecae24a00d14011b8c1e2fc8363a089?format=webp&width=800",
+      title: "Custom Glass Tables",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F80eb10fdcf424f5fb24e19ac7883fb2b?format=webp&width=800",
+      title: "Ventilation Screen System",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F4fa7cf0411b443b09eee9dc51cb4bc8d?format=webp&width=800",
+      title: "Curved Steel Railings",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F6d4bd56069ba432db91aaee0509dbc4c?format=webp&width=800",
+      title: "Glass Panel Garage Doors",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F6dc5cc41a67e424791507ef303631a5d?format=webp&width=800",
+      title: "Steel Framework Construction",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F79559f67ab0946bfa86c4afaebebc495?format=webp&width=800",
+      title: "High-End Kitchen Design",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F3a5c90fcd6384c91a1b4b7162765e36b?format=webp&width=800",
+      title: "Curved Steel Installation",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F9a5683f6031741f0a5d14a808dbbd98a?format=webp&width=800",
+      title: "Metal Structural Components",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F98a1f71969a64fe184704e1110a47f17?format=webp&width=800",
+      title: "Contemporary Outdoor Living",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F329d70b19a4d48d0bdbaf219f5a4eeff?format=webp&width=800",
+      title: "Decorative Steel Work",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F1affd1251966441a936dfb7e1f15d901?format=webp&width=800",
+      title: "Industrial Equipment Fabrication",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2ab83313530441e6a80a409f947190a1?format=webp&width=800",
+      title: "Custom Steel Furniture",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2074f418cd0f4767a9fb4e472c161da1?format=webp&width=800",
+      title: "Professional Workspace Setup",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F6b112f03b0e541bd9eedc1b6b559ba41?format=webp&width=800",
+      title: "Team in Action",
+      category: "Contractor Services"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F5f2005876f7b4299abbbfe95fd6ada6c?format=webp&width=800",
+      title: "Glass Structure Installation",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F3f575339b9454b50a8759d6f34dc396a?format=webp&width=800",
+      title: "Modern Glass Railing",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Ff55be2847e2b4cc09de7210b6d186a76?format=webp&width=800",
+      title: "Pergola Installation Process",
+      category: "Contractor Services"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F41b1a8ffed544d56998484a805e5da21?format=webp&width=800",
+      title: "Modern Entrance Design",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F264213bdc36c410793585eb47b62af9a?format=webp&width=800",
+      title: "Steel Security Screens",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2b9910d60311465283bff64fb169ff06?format=webp&width=800",
+      title: "Contemporary Vertical Panels",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fb3f34ef6e1ef4b4eb79087f323c83bf2?format=webp&width=800",
+      title: "Steel Beam Installation",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fe5972c5b134446d19390e73ce972746f?format=webp&width=800",
+      title: "Workshop Team Photo",
+      category: "Contractor Services"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F8072d042178e44bc9cd99e5ee4e10995?format=webp&width=800",
+      title: "Glass Installation Work",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fc4fcd4e9f7e04677a8bd4590c6e19d0e?format=webp&width=800",
+      title: "Professional Team Member",
+      category: "Contractor Services"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Ff0c268c18d6f46e9b5dc11442b7c9a61?format=webp&width=800",
+      title: "Steel Fabrication Assembly",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fe3588aa0b08f445986b0242367f99444?format=webp&width=800",
+      title: "Large Scale Installation",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fa49ef18b074145caac76c45c74c96525?format=webp&width=800",
+      title: "Stainless Steel Table",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F4ec94012a55c4842930d360c87d69bee?format=webp&width=800",
+      title: "Contemporary Interior Design",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Ff275d834508a46d5bdd0a08989a758ac?format=webp&width=800",
+      title: "Artisan Metalwork",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fdfc8336a107a4ff4a21b9df977ce6091?format=webp&width=800",
+      title: "Decorative Candle Sconces",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2ca6202cd70d44849ea35057c2cf2189?format=webp&width=800",
+      title: "Commercial Reception Design",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F51db8583d2dd4409afa391964999d47d?format=webp&width=800",
+      title: "Steel Project Framework",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F47b79be43cda48ddb2b3811e04c69900?format=webp&width=800",
+      title: "Custom Metal Mailbox",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fc9ec58b95dd746708c70bcefc80cabb4?format=webp&width=800",
+      title: "Curved Steel Counter",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fcac857430ad043e2b69f65940562ac0b?format=webp&width=800",
+      title: "Metal Surface Finishing",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fc44f210b8ff54ea19185accd9233848e?format=webp&width=800",
+      title: "Gold Metal Accents",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F65b4d984ab6d459ebfe9da5a7835e58d?format=webp&width=800",
+      title: "Glass Coffee Table",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F4421a18ba0da4917bf7f8ce672b1f4bc?format=webp&width=800",
+      title: "Metal Patio Gates",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F01059f3bcc39471abe9ba7e6cda6000e?format=webp&width=800",
+      title: "Artistic Metal Design",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2882f1efe326470d950a9d649a1c5c9b?format=webp&width=800",
+      title: "Vertical Steel Panels",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fa6a7354f34b041b8af0c17306d0ef691?format=webp&width=800",
+      title: "Elegant Steel Columns",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F1231b821ef31474182b5e3f0fd2503bb?format=webp&width=800",
+      title: "Precision Tool Work",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fd08615853c9840f8981c4eab398734c9?format=webp&width=800",
+      title: "Geometric Steel Framework",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F314a7411047244179f69d042b41ba651?format=webp&width=800",
+      title: "Modern Stainless Steel Vanity",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F1a7d28ab450548dabc6f4ced2c68edb3?format=webp&width=800",
+      title: "Curved Metal Railing",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fe37c64d6d192445ba5733805b7756535?format=webp&width=800",
+      title: "Textured Gold Panels",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fe0e5c118784a4b5abd314c1f4a172975?format=webp&width=800",
+      title: "Modern Privacy Screen",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fc8a577a459b145aba483639164c71079?format=webp&width=800",
+      title: "Workshop in Action",
+      category: "Contractor Services"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F6eb67adbf1b548df99c14b54d574cca2?format=webp&width=800",
+      title: "Steel Table Manufacturing",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F788c5e013d154ef78fd2cc946e1b3746?format=webp&width=800",
+      title: "Structural Engineering",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F851f6d1ca2904599a5e79eab3c548fa1?format=webp&width=800",
+      title: "Black Steel Frame Structure",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Ff57c515c7e1547d185fcba3313c516da?format=webp&width=800",
+      title: "Stainless Steel Countertop",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fa5119d4925104f9490a3a5774fff093d?format=webp&width=800",
+      title: "Dark Metal Panels",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F04e1d0c024fd4a138ccb762c8073f1c5?format=webp&width=800",
+      title: "Metal Gate with Vertical Slats",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2b851548463d4a7c99c20c067751ed20?format=webp&width=800",
+      title: "Sliding Metal Screen Doors",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Ff2817b48d3c64219916e8df619db8705?format=webp&width=800",
+      title: "Outdoor Gate Installation",
+      category: "Contractor Services"
     }
   ];
 
