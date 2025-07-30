@@ -42,6 +42,27 @@ export default function Index() {
 
     return () => clearInterval(interval);
   }, [backgroundImages.length]);
+
+  // Lightbox navigation functions
+  const openLightbox = (index: number) => {
+    setSelectedImageIndex(index);
+  };
+
+  const closeLightbox = () => {
+    setSelectedImageIndex(null);
+  };
+
+  const nextImage = () => {
+    if (selectedImageIndex !== null) {
+      setSelectedImageIndex((selectedImageIndex + 1) % galleryImages.length);
+    }
+  };
+
+  const prevImage = () => {
+    if (selectedImageIndex !== null) {
+      setSelectedImageIndex(selectedImageIndex === 0 ? galleryImages.length - 1 : selectedImageIndex - 1);
+    }
+  };
   const services = [
     {
       icon: Building2,
