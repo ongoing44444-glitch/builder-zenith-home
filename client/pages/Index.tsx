@@ -70,6 +70,99 @@ export default function Index() {
     }
   ];
 
+  const galleryImages = [
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F64910f5e6ccf4354be8639a3ad8057c9?format=webp&width=800",
+      title: "Glass Canopy with Steel Framework",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2d6b00ceae514338b8303104e730f500?format=webp&width=800",
+      title: "Modern Interior Metal Panels",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2149adf08ada47b398131ea2a046f488?format=webp&width=800",
+      title: "Curved Glass Canopy Installation",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F432087cef5554bb4b142a6a6fbdbbae1?format=webp&width=800",
+      title: "Glass Structure Framework",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fc0f46828ded845dba0228eb782b27cce?format=webp&width=800",
+      title: "Custom Steel Railings",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2f277abb42a34738bd438e639dd1560d?format=webp&width=800",
+      title: "Geometric Wall Art Installation",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Faf8cccee4d074e2aafb8da70c009dd3d?format=webp&width=800",
+      title: "Contemporary Pergola Design",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F118eb5eff41242429222fe38f801f676?format=webp&width=800",
+      title: "Professional Fabrication Shop",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F5c3cccda2c964fe1b4f6332b434a4197?format=webp&width=800",
+      title: "Custom Metal Security Gates",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fcb02c5ebc08e4a9eac14c936848b2cba?format=webp&width=800",
+      title: "Precision Welding Workspace",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fdc9bece1f14d4ebca222aeb6f4c98947?format=webp&width=800",
+      title: "Outdoor Patio Pergola",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fef919a7dbff94c1b92013e4a2006488e?format=webp&width=800",
+      title: "Modern Outdoor Structure",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fc855061b3aca44da87bfc4d7be66a56d?format=webp&width=800",
+      title: "Custom Steel Railing System",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fac308ac676eb4be79257d69be393a684?format=webp&width=800",
+      title: "Metal Fabrication Workshop",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F8ff60d9cb30247d2abd0610ff25853a4?format=webp&width=800",
+      title: "Professional Steel Crafting",
+      category: "Metal Fabrication"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fd062b6fe3810472aa482f677bb091f74?format=webp&width=800",
+      title: "Rooftop Steel Framework",
+      category: "Engineering & Construction"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F052acd210093429bb826718ec24790c9?format=webp&width=800",
+      title: "Architectural Curved Windows",
+      category: "Architecture"
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fbc91e725df5a4a3e8472c1fb5df385ba?format=webp&width=800",
+      title: "Residential Patio Cover",
+      category: "Architecture"
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
       {/* Navigation */}
