@@ -23,7 +23,6 @@ export default function Index() {
   // Background images for hero slideshow
   const backgroundImages = [
     "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F64910f5e6ccf4354be8639a3ad8057c9?format=webp&width=800", // Glass canopy
-    "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F7b30e5b19a414d8eb802c47606bdea4f?format=webp&width=800", // New image provided
     "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2149adf08ada47b398131ea2a046f488?format=webp&width=800", // Curved glass canopy
     "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F432087cef5554bb4b142a6a6fbdbbae1?format=webp&width=800", // Glass structure
     "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Faf8cccee4d074e2aafb8da70c009dd3d?format=webp&width=800", // Contemporary pergola
