@@ -9,6 +9,7 @@ import { Building2, Wrench, Hammer, Settings, Phone, Mail, MapPin, ArrowRight, C
 export default function Index() {
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
   const [currentBgIndex, setCurrentBgIndex] = useState(0);
+  const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(null);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
