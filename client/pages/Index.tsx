@@ -759,9 +759,9 @@ export default function Index() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-gray-300">
-                <li><a href="#about" className="hover:text-red-500 transition-colors">About Us</a></li>
-                <li><a href="#portfolio" className="hover:text-red-500 transition-colors">Portfolio</a></li>
-                <li><a href="#contact" className="hover:text-red-500 transition-colors">Contact</a></li>
+                <li><button onClick={() => scrollToSection('about')} className="hover:text-red-500 transition-colors">About Us</button></li>
+                <li><button onClick={() => scrollToSection('portfolio')} className="hover:text-red-500 transition-colors">Portfolio</button></li>
+                <li><button onClick={() => scrollToSection('contact')} className="hover:text-red-500 transition-colors">Contact</button></li>
                 <li><a href="#" className="hover:text-red-500 transition-colors">Privacy Policy</a></li>
               </ul>
             </div>
