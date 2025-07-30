@@ -8,6 +8,16 @@ import { Building2, Wrench, Hammer, Settings, Phone, Mail, MapPin, ArrowRight, C
 
 export default function Index() {
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
+
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  };
   const services = [
     {
       icon: Building2,
