@@ -860,13 +860,18 @@ export default function Index() {
             <div className="p-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                 {galleryImages.map((image, index) => (
-                  <div key={index} className="group cursor-pointer">
-                    <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden mb-3">
+                  <div key={index} className="group cursor-pointer" onClick={() => openLightbox(index)}>
+                    <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden mb-3 relative">
                       <img
                         src={image.src}
                         alt={image.title}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
+                      <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300 flex items-center justify-center">
+                        <span className="text-white text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                          Click to enlarge
+                        </span>
+                      </div>
                     </div>
                     <h3 className="font-semibold text-gray-900 text-sm mb-1">{image.title}</h3>
                     <Badge variant="secondary" className="text-xs bg-red-100 text-red-800">
