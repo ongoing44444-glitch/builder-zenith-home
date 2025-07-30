@@ -1,11 +1,13 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
-import { Building2, Wrench, Hammer, Settings, Phone, Mail, MapPin, ArrowRight, CheckCircle } from "lucide-react";
+import { Building2, Wrench, Hammer, Settings, Phone, Mail, MapPin, ArrowRight, CheckCircle, X } from "lucide-react";
 
 export default function Index() {
+  const [isGalleryOpen, setIsGalleryOpen] = useState(false);
   const services = [
     {
       icon: Building2,
