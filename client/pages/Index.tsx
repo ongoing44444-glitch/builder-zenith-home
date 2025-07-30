@@ -448,6 +448,44 @@ export default function Index() {
           </div>
         </div>
       </footer>
+
+      {/* Gallery Modal */}
+      {isGalleryOpen && (
+        <div className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-lg max-w-7xl w-full max-h-[90vh] overflow-y-auto">
+            <div className="sticky top-0 bg-white border-b p-6 flex justify-between items-center">
+              <h2 className="text-2xl font-bold text-gray-900">Our Work Gallery</h2>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setIsGalleryOpen(false)}
+                className="text-gray-500 hover:text-gray-900"
+              >
+                <X className="h-6 w-6" />
+              </Button>
+            </div>
+            <div className="p-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                {galleryImages.map((image, index) => (
+                  <div key={index} className="group cursor-pointer">
+                    <div className="aspect-square bg-gray-100 rounded-lg overflow-hidden mb-3">
+                      <img
+                        src={image.src}
+                        alt={image.title}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                    <h3 className="font-semibold text-gray-900 text-sm mb-1">{image.title}</h3>
+                    <Badge variant="secondary" className="text-xs bg-red-100 text-red-800">
+                      {image.category}
+                    </Badge>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
