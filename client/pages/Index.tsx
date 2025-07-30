@@ -97,8 +97,8 @@ export default function Index() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20 lg:py-32">
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+      <section className="relative bg-gradient-to-r from-slate-900 to-slate-800 text-white py-20 lg:py-32" style={{backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F64910f5e6ccf4354be8639a3ad8057c9?format=webp&width=800')`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="absolute inset-0 bg-black opacity-70"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
