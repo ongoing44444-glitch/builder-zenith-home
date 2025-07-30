@@ -31,22 +31,40 @@ export default function Index() {
 
   const projects = [
     {
-      title: "Industrial Complex Renovation",
+      title: "Glass Canopy Installation",
       category: "Engineering & Construction",
-      description: "Complete renovation of 50,000 sq ft manufacturing facility including structural engineering and metal framework.",
-      image: "/placeholder.svg"
+      description: "Precision-engineered glass canopy with steel framework providing weather protection and architectural elegance.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F64910f5e6ccf4354be8639a3ad8057c9?format=webp&width=800"
     },
     {
-      title: "Custom Steel Framework",
+      title: "Custom Steel Railings",
       category: "Metal Fabrication",
-      description: "Precision-engineered steel framework for commercial high-rise building with complex architectural requirements.",
-      image: "/placeholder.svg"
+      description: "Handcrafted decorative steel railings featuring intricate metalwork and professional powder coating finish.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Fc0f46828ded845dba0228eb782b27cce?format=webp&width=800"
     },
     {
-      title: "Architectural Design Project",
+      title: "Modern Pergola Structure",
       category: "Architecture",
-      description: "Modern office complex design featuring sustainable materials and innovative structural solutions.",
-      image: "/placeholder.svg"
+      description: "Contemporary steel pergola with clean lines and integrated lighting for residential outdoor living space.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2Faf8cccee4d074e2aafb8da70c009dd3d?format=webp&width=800"
+    },
+    {
+      title: "Geometric Wall Installation",
+      category: "Metal Fabrication",
+      description: "Custom geometric metal wall panels with precision-cut patterns creating modern architectural interest.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F2f277abb42a34738bd438e639dd1560d?format=webp&width=800"
+    },
+    {
+      title: "Industrial Workshop Setup",
+      category: "Engineering & Construction",
+      description: "Complete fabrication workshop design and installation with precision equipment and workflow optimization.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F118eb5eff41242429222fe38f801f676?format=webp&width=800"
+    },
+    {
+      title: "Custom Metal Gates",
+      category: "Metal Fabrication",
+      description: "Ornate decorative metal gates with traditional craftsmanship and modern security features.",
+      image: "https://cdn.builder.io/api/v1/image/assets%2F97362307ccab46c98277148464a25b24%2F5c3cccda2c964fe1b4f6332b434a4197?format=webp&width=800"
     }
   ];
 
