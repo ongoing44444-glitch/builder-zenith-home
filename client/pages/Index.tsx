@@ -570,6 +570,21 @@ export default function Index() {
               </Button>
             </div>
           </div>
+
+          {/* Background Slideshow Indicators */}
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+            {backgroundImages.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentBgIndex(index)}
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                  index === currentBgIndex
+                    ? 'bg-red-500 scale-110'
+                    : 'bg-white opacity-50 hover:opacity-75'
+                }`}
+              />
+            ))}
+          </div>
         </div>
       </section>
 
