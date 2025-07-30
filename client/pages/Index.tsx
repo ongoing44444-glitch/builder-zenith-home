@@ -203,7 +203,11 @@ export default function Index() {
               Ferrari Arts delivers precision engineering, innovative architecture, and superior metal fabrication services for commercial and industrial projects.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button size="lg" className="bg-red-600 hover:bg-red-700 text-lg px-8 py-3">
+              <Button
+                size="lg"
+                className="bg-red-600 hover:bg-red-700 text-lg px-8 py-3"
+                onClick={() => setIsGalleryOpen(true)}
+              >
                 View Our Work
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
